@@ -1,0 +1,44 @@
+.rateLine-container {
+  width: 100%;
+  overflow: hidden;
+  background: #e5e4e4;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+}
+
+.rateLine-track {
+  display: flex;
+  width: max-content;
+  animation: scroll linear infinite;
+  will-change: transform;
+}
+
+.rateLine-content {
+  display: flex;
+  flex: 0 0 auto;
+}
+
+.coin {
+  display: flex;
+  gap: 10px;
+  margin-right: 2rem;
+  flex: 0 0 auto;
+}
+
+.greenNumber {
+  color: green;
+}
+
+.redNumber {
+  color: red;
+}
+
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(calc(-1 * var(--move)));
+  }
+}

@@ -1,0 +1,159 @@
+.trade-card {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  border-radius: 20px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.section-title {
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #667085;
+  margin-bottom: 0.8rem;
+}
+
+.custom-input {
+  height: 56px;
+  border-radius: 14px;
+  background: #f3f4f6;
+  border: 1px solid #dcdfe4;
+  font-size: 1.2rem;
+  padding-left: 1rem;
+}
+
+.custom-input:focus {
+  box-shadow: none;
+  border-color: #22c55e;
+  background: #f3f4f6;
+}
+
+.switch-btn {
+  height: 56px;
+  width: 56px;
+  border-radius: 14px;
+  font-size: 1.2rem;
+}
+
+.percent-btn {
+  border-radius: 10px;
+  font-weight: 600;
+  padding: 0.6rem 0;
+}
+
+.buy-btn {
+  height: 60px;
+  border-radius: 16px;
+  font-size: 1.3rem;
+  font-weight: 700;
+}
+
+.sell-btn {
+  background: #e5e7eb;
+}
+
+.balance-text {
+  color: #667085;
+  font-size: 1rem;
+}
+
+.total-input {
+  font-weight: 700;
+}
+
+.dropdown-wrapper {
+  position: relative;
+}
+
+.coin-selector {
+  cursor: pointer;
+  user-select: none;
+}
+
+.coin-selector-img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.coin-selector-name {
+  font-weight: 600;
+}
+
+.coin-selector-symbol {
+  color: #667085;
+  font-size: 0.95rem;
+}
+
+.coin-selector-arrow {
+  color: #667085;
+  font-size: 0.85rem;
+}
+
+.dropdown {
+  position: absolute;
+  top: calc(100% + 6px);
+  left: 0;
+  right: 0;
+  background: white;
+  border: 1px solid #dcdfe4;
+  border-radius: 14px;
+  z-index: 100;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.12);
+  overflow: hidden;
+}
+
+.dropdown_select {
+  padding: 10px 12px;
+  border-bottom: 1px solid #dcdfe4;
+}
+
+.dropdown_search {
+  border-radius: 10px;
+  background: #f3f4f6;
+  border: 1px solid #dcdfe4;
+}
+
+.dropdown_search_select {
+  max-height: 220px;
+  overflow-y: auto;
+}
+
+.dropdown_search_select-coin {
+  padding: 10px 16px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  transition: background 0.15s;
+}
+
+.dropdown_search_select-coin:hover {
+  background: #f3f4f6;
+}
+
+.dropdown_search_select-coin_active {
+  background: #f3f4f6;
+}
+
+.dropdown_search_select-coin-none {
+  padding: 12px 16px;
+  color: #667085;
+  font-size: 0.95rem;
+}
+
+.dropdown_search_select-coin_img {
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+}
+
+.dropdown_search_select-coin_name {
+  font-weight: 600;
+}
+
+.dropdown_search_select-coin_symbol {
+  color: #667085;
+  font-size: 0.9rem;
+  margin-left: auto;
+}
