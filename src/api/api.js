@@ -1,5 +1,5 @@
-const API_URL =
-  "https://crypto-application-956e851e13c5.herokuapp.com/";
+const API_URL = "https://crypto-application-956e851e13c5.herokuapp.com";
+
 
 export async function apiFetch(
   endpoint,
