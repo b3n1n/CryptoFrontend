@@ -1,5 +1,5 @@
 const API_URL =
-  import.meta.env.VITE_API_URL;
+  "https://crypto-application-956e851e13c5.herokuapp.com/";
 
 export async function apiFetch(
   endpoint,

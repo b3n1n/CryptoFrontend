@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "http://localhost:8080/api",
+  baseURL: "https://crypto-application-956e851e13c5.herokuapp.com/api",
 });
 api.interceptors.request.use((config) => {
   const token = localStorage.getItem("token");
